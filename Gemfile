@@ -45,3 +45,5 @@ end
 
 gem 'devise'
 gem 'activeadmin', github: 'gregbell/active_admin'
+
+gem 'rabl'  # For json.
