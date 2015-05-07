@@ -13,4 +13,13 @@ ActiveAdmin.register Stock do
 #   permitted
 # end
   permit_params :quantity
+
+  index do
+    selectable_column
+    id_column
+    column :shop
+    column :product
+    column :quantity
+    actions
+  end
 end
