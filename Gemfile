@@ -43,4 +43,5 @@ group :development, :test do
   gem 'spring'
 end
 
-gem 'rails-api'
+gem 'devise'
+gem 'activeadmin', github: 'gregbell/active_admin'
